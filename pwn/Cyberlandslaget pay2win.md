@@ -25,6 +25,7 @@ After inputting the pattern:
 looking at reason, we successfully caused a `segmentation fault` aka `SIGSEGV`.
 ![ida](./images/pay2win-stack.png)
 now we use `pattern search $rsp` and find the offset at `72`
+
 ![ida](./images/pay2win-offset.png)
 
 #### Execution
