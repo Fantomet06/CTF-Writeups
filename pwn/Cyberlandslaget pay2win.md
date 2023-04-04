@@ -10,7 +10,7 @@
 
 we're given two files: the compiled code (`pay2win`) and the source code (`pay2win.c`)
 By opening `pay2win` in IDA, we can see that there are 3 functions, printFlag(), win() and main().
-![[pay2win-ida_functions.png]]
+![ida](./images/pay2win-ida-functions.png)
 
 By looking at the source code, or preferably the decompiled code, we see that the code is vulnerable to a buffer overflow attack on line 11.
 ![ida](./images/pay2win-decompile.png)
@@ -20,12 +20,12 @@ Since a function (`win()`) is called right after `atoi()`, that means the return
 #### Finding Offset
 
 We need to first check for the offset of v5. I did this using gbd-gef's `pattern create` and `pattern search` functions.
-![[pay2win-gef.png]]
+![ida](./images/pay2win-gef.png)
 After inputting the pattern:
 looking at reason, we successfully caused a `segmentation fault` aka `SIGSEGV`.
-![[pay2win-stack.png]]
+![ida](./images/pay2win-stack.png)
 now we use `pattern search $rsp` and find the offset at `72`
-![[pay2win-offset.png]]
+![ida](./images/pay2win-offset.png)
 
 #### Execution
 
@@ -37,8 +37,8 @@ io.sendline(input_value)
 ```
 
 `b'A' * 72` is the offset, we spam A's and `p64()` is the adress of printFlag() which we found in IDA.
-![[pay2win-printflag.png]]
+![ida](./images/pay2win-printFlag.png)
 
 #### Getting the flag!
 
-![[pay2win-win.png]]
+![ida](./images/pay2win-win.png)
