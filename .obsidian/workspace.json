@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "851af8f874be88e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "pwn/Cyberlandslaget pay2win.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,18 +146,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "851af8f874be88e2",
+  "active": "c23c4ecb8d723d5f",
   "lastOpenFiles": [
-    "images/Pasted.md",
+    "pwn/images/pay2win-stack.png",
+    "pwn/images/pay2win-offset.png",
+    "pwn/images/pay2win-printflag.png",
+    "pwn/images/pay2win-win.png",
+    "pwn/images/pay2win-gef.png",
+    "pwn/images/pay2win-decompile.png",
+    "pwn/images/pay2win-ida_functions.png",
     "pwn/Cyberlandslaget pay2win.md",
+    "images/Pasted.md",
     "images",
-    "pwn/images/Pasted image 20230404131609.png",
-    "pwn/images/Pasted image 20230404133420.png",
-    "pwn/images/Pasted image 20230404133350.png",
-    "pwn/images/Pasted image 20230404132623.png",
-    "pwn/images/Pasted image 20230404132306.png",
-    "pwn/images/Pasted image 20230404132225.png",
-    "pwn/images/Pasted image 20230404131431.png",
     "pwn/images",
     "pwn/New folder",
     "Pasted image 20230404133420.png",
