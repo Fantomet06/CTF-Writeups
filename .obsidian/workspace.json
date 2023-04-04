@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "9928c0857a304d66",
+    "type": "split",
+    "children": [
+      {
+        "id": "3bf10aebc3117828",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c23c4ecb8d723d5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "851af8f874be88e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pwn/Cyberlandslaget pay2win.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9ba1f67a889716ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "27d75c9ada7c5108",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75862965c286241a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "44c308883177cbd3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "223b8834e1b2e860",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f801e4cff3e27135",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ebe5ff1bb9b02a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6df2e8a9a99c26c4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "pwn/Cyberlandslaget pay2win.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d825c39b11db6606",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "pwn/Cyberlandslaget pay2win.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c6050dd883563d49",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "886d33bda31b53ff",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "pwn/Cyberlandslaget pay2win.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "851af8f874be88e2",
+  "lastOpenFiles": [
+    "pwn/images/Pasted image 20230404131609.png",
+    "pwn/Cyberlandslaget pay2win.md",
+    "pwn/images/Pasted image 20230404133420.png",
+    "pwn/images/Pasted image 20230404133350.png",
+    "pwn/images/Pasted image 20230404132623.png",
+    "pwn/images/Pasted image 20230404132306.png",
+    "pwn/images/Pasted image 20230404132225.png",
+    "pwn/images/Pasted image 20230404131431.png",
+    "pwn/images",
+    "pwn/New folder",
+    "Pasted image 20230404133420.png",
+    "Pasted image 20230404133350.png",
+    "Pasted image 20230404132623.png",
+    "README.md",
+    "Untitled",
+    "pwn"
+  ]
+}
