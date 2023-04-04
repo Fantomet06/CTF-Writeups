@@ -21,10 +21,11 @@ Since a function (`win()`) is called right after `atoi()`, that means the return
 
 We need to first check for the offset of v5. I did this using gbd-gef's `pattern create` and `pattern search` functions.
 ![ida](./images/pay2win-gef.png)
+
 After inputting the pattern:
-looking at reason, we successfully caused a `segmentation fault` aka `SIGSEGV`.
 ![ida](./images/pay2win-stack.png)
-now we use `pattern search $rsp` and find the offset at `72`
+looking at reason, we successfully caused a `segmentation fault` aka `SIGSEGV`.
+Now we use `pattern search $rsp` and find the offset at `72`
 
 ![ida](./images/pay2win-offset.png)
 
