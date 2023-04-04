@@ -17,7 +17,7 @@ By looking at the source code, or preferably the decompiled code, we see that th
 
 Since a function (`win()`) is called right after `atoi()`, that means the return adress for `win()` will be right after v5 in the stack. Consequently we can overflow v5 to overwrite the return adress for `win()` to `printFlag()`.
 
-#### Finding Offset
+### Finding Offset
 
 We need to first check for the offset of v5. I did this using gbd-gef's `pattern create` and `pattern search` functions.
 ![ida](./images/pay2win-gef.png)
@@ -28,7 +28,7 @@ now we use `pattern search $rsp` and find the offset at `72`
 
 ![ida](./images/pay2win-offset.png)
 
-#### Execution
+### Execution
 
 To execute an attack, or to "pwn the program". For this challenge, im going to use pwntools. 
 Initialize a python program using `pwn template --host pwn.toys --port 30001 --quiet ./pay2win > vuln.py`. The exploit we add is:
@@ -40,6 +40,6 @@ io.sendline(input_value)
 `b'A' * 72` is the offset, we spam A's and `p64()` is the adress of printFlag() which we found in IDA.
 ![ida](./images/pay2win-printFlag.png)
 
-#### Getting the flag!
+### Getting the flag!
 
 ![ida](./images/pay2win-win.png)
