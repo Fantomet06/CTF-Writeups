@@ -13,7 +13,7 @@ By opening `pay2win` in IDA, we can see that there are 3 functions, printFlag(),
 ![[Pasted image 20230404131431.png]]
 
 By looking at the source code, or preferably the decompiled code, we see that the code is vulnerable to a buffer overflow attack on line 11.
-![ida](/images/Pasted image 20230404131609.png)
+![ida](./images/Pasted image 20230404131609.png)
 
 Since a function (`win()`) is called right after `atoi()`, that means the return adress for `win()` will be right after v5 in the stack. Consequently we can overflow v5 to overwrite the return adress for `win()` to `printFlag()`.
 
