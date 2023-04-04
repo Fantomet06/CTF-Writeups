@@ -10,7 +10,7 @@
 
 we're given two files: the compiled code (`pay2win`) and the source code (`pay2win.c`)
 By opening `pay2win` in IDA, we can see that there are 3 functions, printFlag(), win() and main().
-![ida](./images/pay2win-ida-functions.png)
+![ida](./images/pay2win-ida_functions.png)
 
 By looking at the source code, or preferably the decompiled code, we see that the code is vulnerable to a buffer overflow attack on line 11.
 ![ida](./images/pay2win-decompile.png)
